@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Electricity Bill Calculator</h1>
+        <form id="billForm">
+            <div class="input-group">
+                <label for="jan-feb">Jan-Feb Units:</label>
+                <input type="number" id="janfeb" name="jan-feb" required>
+            </div>
+            <div class="input-group">
+                <label for="mar-apr">Mar-Apr Units:</label>
+                <input type="number" id="marapr" name="mar-apr" required>
+            </div>
+            <div class="input-group">
+                <label for="may-jun">May-Jun Units:</label>
+                <input type="number" id="mayjun" name="may-jun" required>
+            </div>
+            <div class="input-group">
+                <label for="jul-aug">Jul-Aug Units:</label>
+                <input type="number" id="julaug" name="jul-aug" required>
+            </div>
+            <div class="input-group">
+                <label for="sep-oct">Sep-Oct Units:</label>
+                <input type="number" id="sepoct" name="sep-oct" required>
+            </div>
+            <div class="input-group">
+                <label for="nov-dec">Nov-Dec Units:</label>
+                <input type="number" id="novdec" name="nov-dec" required>
+            </div>
+            <button type="button" onclick="calculateBills()">Calculate</button>
+        </form>
+        <div id="results">
+            <h2>Results</h2>
+            <p id="bills"></p>
+            <p id="highest"></p>
+            <p id="lowest"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
