@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(99, 160, 105, 0.4);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading{
+    text-align: center;
+}
+
+img, figcaption{
+    padding: 0 20px 0 10px;
+    box-sizing: border-box;
+ }
+
+ a{
+    text-decoration: none;
+    color: brown;
+}
+
+address{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    /* every span devided into next line */
+    display: block;
+}
+
+.relative{
+    position: relative;
+}

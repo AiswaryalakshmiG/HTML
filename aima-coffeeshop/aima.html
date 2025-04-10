@@ -5,16 +5,16 @@
     <meta name="author" content="Aishu">
     <meta name="description " content="The offical website for Aima Coffee Shop">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aima Coffee Shop </title>
+    <title> Aima Coffee Shop </title>
     <link rel="stylesheet" href="aima.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Aima Coffee Shop <abbr title="Aima Coffee Shop">ACS</abbr></h1>
+        <h1 class="heading">Welcome to Aima Coffee Shop</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about"> About</a>
                 </li>
                 <li>
                     <a href="#menu"> Menu</a>
@@ -29,22 +29,21 @@
             </ul>
         </nav>
         <figure>
-           
-            <img src="coffeesnacks.jpg" alt="Coffee and snacks" title="coffee love" width="100"
-            height="100">
-            <figcaption>Coffee and snacks</figcaption>
+            <img src="filtercoffee.jpg" alt="Coffee" title="coffee love" width="200"
+            height="200">
+            <figcaption>Coffee</figcaption>
         </figure>
     </header>
     <hr>
     <main>
         <article id="about">
-            <h2>About <abbr title="Aima Coffee Shop">ACP</abbr></h2>
-            <p> <abbr title="Aima Coffee Shop">ACP</abbr>was founded in <time datetime="2025">2025</time>. Our shop was built from a <strong>Love of Coffee </strong> </p>
+            <h2>About <abbr title="Aima Coffee Shop">ACS</abbr></h2>
+            <p>  <abbr class="abbri" title="Aima Coffee Shop">ACS</abbr> was founded in <time datetime="2025">2025</time>. Our shop was built from a <strong>Love of Coffee </strong> </p>
             <aside>
-                <h3>Coffee</h3>
+                <h3 class="heading3">Coffee</h3>
                 <details>
-                    <summary>coffee</summary>
-                    <p>Recent studies show that drinking coffee may extend lifespan and lower heart disease rise.</p>
+                    <summary><em>Coffee</em></summary>
+                    <p class="content">Recent studies show that drinking coffee may extend lifespan and lower heart disease rise.</p>
                 </details>
             </aside>
         </article>
@@ -52,8 +51,9 @@
         <article id="menu">
             <h2>Our Menu</h2>
             <table>
-                <caption>Our Coffees</caption>
+                <caption class="caption">Our Coffees</caption>
                 <thead>
+                    <!-- To indicate that each column header relates to all cells in the corresponding column -->
                     <th scope="col">Coffee Item</th>
                     <th scope="col ">Description</th>
                     <th scope="col">Price</th>
@@ -67,7 +67,7 @@
                     <tr>
                         <td>Instant Coffee</td>
                         <td>Quick Coffee made with instant  powder</td>
-                        <td>40</td>
+                        <td>100</td>
                     </tr>
                     <tr>
                         <td>Cold Coffee</td>
@@ -104,7 +104,7 @@
     </main>
     <hr>
     <footer>
-        <p>Copyright &copy; Aima Coffee Shop</p>
+        <p class="relative">Copyright &copy; Aima Coffee Shop</p>
     </footer>
 </body>
 </html>

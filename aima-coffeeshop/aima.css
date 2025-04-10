@@ -1,6 +1,72 @@
+body{
+    /* coloring use rgba a-> alpha -> used for transparcy 0 to 1 */
+    background-color: rgba(99, 160, 105, 0.4);
+    /* Opacity / Transparency -> value 0.0(full trans) - 1.0 */
+    /* opacity: 0.9; */
+    /* create space around elements auto->horizontally centered */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading{
+    text-align: center;
+}
+
+.abbri{
+    /* #rrggbb -> value b/w -> 00 to ff */
+    color: #c5080b;
+}
+
+ img, figcaption{
+    /* generate space around an element's content */
+    padding: 0 20px 0 10px;
+    /* increasing the overall dimensions.  */
+    box-sizing: border-box;
+ }
+
+ .heading3 {
+font-family: 'Times New Roman', Times, serif;
+text-transform: uppercase;
+ }
+
+ .content{
+font-size: small;
+}
+
+ a{
+    text-decoration: none;
+    color: brown;
+}
+
+ ul{
+    /*  specifies the type of list item marker -> ul->circle,square */
+    list-style-type: square;
+    font-style: oblique;
+ }
+
+ .caption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+
+ }
+
+
 table,tr,td,th,caption{
     border: 1px solid black;
     font-family: 'Courier New', Courier, monospace;
-    /* border-collapse: collapse; */
+    border-collapse: collapse;
+    /* control the space between the border and the content in a table */
     padding: 10px;
+    text-align: center;
 }
+
+tr:hover{
+    /* highlight table rows on mouse over */
+    background-color: #39a581;
+    
+}
+
+/*  zebra-striped tables */
+tr:nth-child(even) {background-color:  rgba(83, 175, 95, 0.4) ;}
